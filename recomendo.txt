@@ -1,7 +1,0 @@
-reveja sempre cada passo, considerando que cada passo é cada component do site
-
-refatore o codigo no sentido de deixar o navigation dots e a socia media fixed
-
-mudando cada componente da tela pois mudei para usaer o appwrap neles, levando em consideração que testimonions tem que ser adicionado ao array que gera os componets 
-
-momento em que eu recomendo rever o video é a partir do mnt 2:38 mais ou meno pois é sobre  o filtro de sites por tag
