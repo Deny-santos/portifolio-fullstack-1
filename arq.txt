@@ -1,0 +1,32 @@
+npm i -g sanity =  instalei globalmente o sanity
+usa- se o sanity start para iniciar o servidor e ter acesso a deshbord do sanity 
+clean projetcts white no ...
+npm i react-tooltip na hora de mexer no skilss mas tanto faz logico
+
+criei o arq testimonios
+
+logo depois criei o front end e as dependencias são:
+npm i @sanity/client @sanity/image-url framer-motion node-sass react-icons
+
+14.16.1
+
+npm config set legacy-peer-deps true === tive que usar para consseguir baixar o saas
+
+"""""Hello i finally figure out how to import scss without node-scss. I couldn´t install node-scss, because i have node v19. I use sass now. I have to say that it was long time until I setup it. Thank you for tutorial and have a good day""""" salvei caso na hora do deploy der ruim eu mudo para essa dependencia
+
+"""Found the solution after realising node-sass is deprecated. Use 'npm install sass' instead of 'npm install node-sass'""" essa tbm
+
+flex 1: Atribuir o valor 1 à propriedade flex-grow fará com que o espaço disponível no contêiner flex seja igualmente distribuído entre todos os elementos do exemplo acima
+
+object-fit: contain; usa-se no caso das imgs que ficam maior do que a div e vaza ou enconde parte, no caso de se estar usando o box-sizing: border-box
+
+entrando no backend pelo terminal vc vai digitar sanity manage === entao vai abrir uma aba no chrome ou não, pode apenas gerar a url e vc clicar control + clique,no meu caso : https://manage.sanity.io/projects/hf3b1vuv 
+la vc vai achar alguns dados dentre eles, vc pode achar o token em API > rolar para baixo > cors origins > +add Cors origin > allow credentials > http://localhost:3000 >  save
+depois na msm aba de API vc rola pra baixo ainda mais e vai em api token > add API token digitei Application token > edit(marque) > save. === dai ele gera o token
+*** esse token não deve ficar exposto, então vc vai criar um .env e salvar lá, e o id tbm logicooo
+
+obs perceba que o useeEfect é praticamente igaul em todos que ele esta presente
+
+em skilss.jsx eu coloquei um ? nos arrays que vão renderizar as coisas, pq ele pode não estar setado por exemplo então, se setado renderize
+
+deu um problema a ser resolvido em relaçao ao work experiences da hora 3:05:00 em diante
